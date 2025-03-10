@@ -1,11 +1,11 @@
-main [class*="col-"] {
+main [class*="col"] {
     color: white;
 }
 
-main>.container>.row:first-of-type>[class^="col-"]:first-child {
+main>.container>.row:first-of-type>[class^="col"]:first-child {
     color: black;
 }
 
-main>.container>.row:last-of-type>[class^="col-"]:last-child {
+main>.container>.row:last-of-type>[class^="col"]:last-child {
     color: black;
 }
